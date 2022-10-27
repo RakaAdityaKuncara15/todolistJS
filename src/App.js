@@ -27,13 +27,6 @@ function App() {
       >
         Add
       </button>
-      <button
-        onClick={() => {
-          delete setTodos([...todos, { id: todos.length -1, title: title }]);
-        }}
-      >
-        Delete
-      </button>
 
       <h1>To do List</h1>
 
